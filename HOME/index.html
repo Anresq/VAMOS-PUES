@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Vamos Pues</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img
+            src="/LOGOS/Logo calidad.svg"
+            alt="logo"
+            class="nav__logo--image"
+          />
+        </a>
+        <ul class="nav__menu">
+          <li class="nav_section"><a href="#">Home</a></li>
+          <li class="nav_section"><a href="#">Favorites</a></li>
+          <li class="nav_section"><a href="#">About Us</a></li>
+          <li class="nav_section"><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="lastmenu">
+          <div class="avatar">
+            <button class="avatar__button"></button>
+          </div>
+
+          <div class="userMenu">
+            <a href="#" class="userMenu__option">Sign In</a>
+            <a href="#" class="userMenu__option">Sign Up</a>
+          </div>
+
+          <div class="language">
+            <button class="language__button"></button>
+          </div>
+
+          <div class="languageMenu">
+            <button class="languageMenu__option""/>
+          </div>
+        </div>
+      </nav>
+
+      <div class="carousel">
+        <img src="/PICTURES/IMG_0934.JPG" alt="cerroTusa" />
+        <!-- <img src="/PICTURES/pexels-lisa-fotios-1107717.jpg" alt="mountain"> -->
+      </div>
+    </header>
+    <div class="searchBar">
+      <input type="search" name="searchBar" placeholder="     Find a place" />
+    </div>
+
+    <section class="main">
+      <div class="filters">
+        <div class="filters__item">
+          <h3>Sort:</h3>
+          <label for="sort">A-Z:</label>
+          <input type="radio" name="sort" id="sort" />
+          <label for="sort">Z-A</label>
+          <input type="radio" name="sort" id="sort" />
+        </div>
+
+        <div class="filters__item">
+          <h3>Distance:</h3>
+          <input type="range" name="distance" id="distance" />
+        </div>
+
+        <div class="filters__item filters__item--region">
+          <h3>Region:</h3>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Southwest</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">West</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">North</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Aburra Valley</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Lower Cauca</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Middle Magdalena</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Northeast</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">East</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" />
+            <label for="region">Uraba</label>
+          </div>
+        </div>
+
+
+        <div class="filters__item">
+          <h3>Tourist attractions:</h3>
+          <select name="attractions">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            <option value="opcion4">Opción 4</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cards"></div>
+    </section>
+  </body>
+</html>
